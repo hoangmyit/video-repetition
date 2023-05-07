@@ -8,9 +8,6 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   base: 'video-repetition',
   plugins: [react(), tsconfigPaths()],
-  build: {
-    sourcemap: true,
-  },
   test: {
     globals: true,
     environment: 'happy-dom',
